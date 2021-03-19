@@ -6,9 +6,8 @@
 
 ## Technologies Used
 
-* _HTML_
-* _CSS_
-* _Javascript_
+* _HTML/CSS_
+* _Javascript/JQuery_
 
 ## Description
 
@@ -22,8 +21,6 @@ _A simple calculator to practice JS._
 
 
 ## Known Bugs
-
-* _The navbar breaks when viewed on smaller screens._
 
 ## License
 
