@@ -8,23 +8,26 @@
     <title>Calculator</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Calculator</h1>
-      <form id="add">
-        <div class="form-group">
-        <label for="add1">First Number</label>
-        <input id="add1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-        <label for="add2">Second Number</label>
-        <input id="add2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Add!</button>
-      </form>
-      <div id="output">
-        
+    <main class="container">
+      <input id="output" type="text" readonly />
+      <div id="calculator">
+        <button class= "btn-dark number">1</button>
+        <button class= "btn-dark number">2</button>
+        <button class= "btn-dark number">3</button>
+        <button class="operation btn-dark" data-action="subtract"> - </button>
+        <button class= "btn-dark number">4</button>
+        <button class= "btn-dark number">5</button>
+        <button class= "btn-dark number">6</button>
+        <button class="operation btn-dark" data-action="multiply"> * </button>
+        <button class= "btn-dark number">7</button>
+        <button class= "btn-dark number">8</button>
+        <button class= "btn-dark number">9</button>
+        <button class="operation btn-dark" data-action="divide"> ÷ </button>
+        <button class= "btn-dark number-zero">0</button>
+        <button class="btn-dark equal"> = </button>
+        <button class="btn-dark operation" data-action="sum"> + </button>
       </div>
-    </div>
+    </main>
   </body>
 </html>
 
